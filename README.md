@@ -1,2 +1,2 @@
 # HeartDisease
-THis
+This code uses logistic regression to predict whether or not an individual suffers from coronary heart disease based on predictors such as age, sex, blood pressure, type of chest pain, cholesterol, characteristics of their ECG etc. The model is then tested using out-of-sample data to measure accuracy. The code then visualises the capabilities of the model using a confusion matrix and an AOC curve. To minimise the chance of false negatives, the threshold is then adjusted to detect at least 95% of all true positives, as this is important for  medical applications.
